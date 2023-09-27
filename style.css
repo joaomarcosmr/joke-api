@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #ffa500;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content{
+    background-color: white;
+    border: 2px solid black;
+    padding: 40px;
+    text-align: center;
+}
+
+.content h1{
+    font-size: 3rem;
+}
+
+.content button{
+    padding: 4%;
+    background-color: transparent;
+    border-radius: 14px;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.content button:hover{
+    background-color: orange;
+    transition: 0.5s;
+}
+
+.content p{
+    font-size: 1.4em;
+}
+
+.content p,
+.content i,
+.content button{
+    margin-top: 30px;
+}
+
